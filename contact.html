@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact - DARK</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <table>
+        <tr>
+            <td>
+                <a href="index.html">HOME</a> |
+                <a href="about.html">ABOUT US</a> |
+                <a href="families.html">FAMILIES</a> |
+                <a href="contact.html">CONTACT US</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>CONTACT SIC MUNDUS</h1>
+    <p>Do you have information about the cycle?</p>
+
+    <table>
+        <tr>
+            <td>
+                <form action="index.html" method="get">
+
+                    <!-- Text Inputs -->
+                    <p>
+                        <b>Name:</b><br>
+                        <input type="text" name="fullname" placeholder="Enter your name">
+                    </p>
+
+                    <p>
+                        <b>Email:</b><br>
+                        <input type="email" name="email" placeholder="Enter your email">
+                    </p>
+
+                    <hr>
+
+                    <!-- Radio Buttons -->
+                    <p>
+                        <b>Which timeline are you currently in?</b><br>
+                        <input type="radio" name="timeline" value="1953">
+                        1953<br>
+                        <input type="radio" name="timeline" value="1986">
+                        1986<br>
+                        <input type="radio" name="timeline" value="2019" checked>
+                        2019<br>
+                        <input type="radio" name="timeline" value="2052">
+                        2052 (Post-Apocalypse)
+                    </p>
+
+                    <hr>
+
+                    <!-- Checkboxes -->
+                    <p>
+                        <b>Which characters have you sighted?</b><br>
+                        <input type="checkbox" name="sighting" value="jonas">
+                        Jonas Kahnwald<br>
+                        <input type="checkbox" name="sighting" value="martha">
+                        Martha Nielsen<br>
+                        <input type="checkbox" name="sighting" value="noah">
+                        Noah<br>
+                        <input type="checkbox" name="sighting" value="claudia">
+                        Claudia Tiedemann
+                    </p>
+
+                    <hr>
+
+                    <!-- Select Dropdown -->
+                    <p>
+                        <b>Purpose of Contact:</b><br>
+                        <select name="purpose">
+                            <option value="join">I want to join Sic Mundus</option>
+                            <option value="report">Report a Paradox</option>
+                            <option value="mikkel">I found Mikkel</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <!-- Textarea -->
+                    <p>
+                        <b>Message:</b><br>
+                        <textarea name="message" rows="5" cols="50" placeholder="Write your message here..."></textarea>
+                    </p>
+
+                    <!-- Submit Button -->
+                    <input type="submit" value="SEND MESSAGE">
+                    <input type="reset" value="RESET">
+
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr>
+    &copy; 2024 Sic Mundus Creatus Est
+
+</body>
+
+</html>
